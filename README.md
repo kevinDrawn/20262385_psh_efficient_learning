@@ -1,3 +1,53 @@
+# AQLM Robustness Stress-Test Project
+
+This repository contains a stress-testing project for efficient artificial intelligence model deployment using Additive Quantization for Large Language Models (AQLM).
+
+The project was conducted as part of a university coursework report on efficient AI systems and practical robustness evaluation under low-bit quantized inference conditions.
+
+## Project Objective
+
+The experiments investigate how aggressively quantized large language models behave under practical inference conditions, including:
+
+- Basic instruction-following generation
+- Long-context inference
+- Arithmetic reasoning stress tests
+- Comparison with non-quantized baseline models
+
+The project focuses on practical generation robustness rather than benchmark-only evaluation metrics.
+
+## Main Experiment Pipeline
+
+The integrated experiment pipeline can be executed using:
+
+```bash
+python aqlm_stress_test_pipeline_final.py
+```
+
+# AQLM Robustness Stress-Test Project
+
+This repository contains a stress-testing project for efficient artificial intelligence model deployment using Additive Quantization for Large Language Models (AQLM).
+
+The project was conducted as part of a university coursework report on efficient AI systems and practical robustness evaluation under low-bit quantized inference conditions.
+
+## Project Objective
+
+The experiments investigate how aggressively quantized large language models behave under practical inference conditions, including:
+
+- Basic instruction-following generation
+- Long-context inference
+- Arithmetic reasoning stress tests
+- Comparison with non-quantized baseline models
+
+The project focuses on practical generation robustness rather than benchmark-only evaluation metrics.
+
+## Main Experiment Pipeline
+
+The integrated experiment pipeline can be executed using:
+
+```bash
+python aqlm_stress_test_pipeline_final.py
+
+
 # AQLM
 
 Official PyTorch implementation for [Extreme Compression of Large Language Models via Additive Quantization](https://arxiv.org/pdf/2401.06118.pdf)
